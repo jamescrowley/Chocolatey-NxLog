@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>nxlog</id>
+    <version>2.6.1131</version>
+    <title>nxlog</title>
+    <authors>FundApps</authors>
+    <owners>james.crowley</owners>
+    <licenseUrl>http://sourceforge.net/directory/license:lgpl/</licenseUrl>
+    <projectUrl>http://nxlog-ce.sourceforge.net/</projectUrl>
+    <iconUrl>http://c.fsdn.com/allura/p/nxlog-ce/icon</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>nxlog is a modular, multi-threaded, high-performance log management solution with multi-platform support. In concept it is similar to syslog-ng or rsyslog but is not limited to unix/syslog only. It can collect logs from files in various formats, receive logs from the network remotely over UDP, TCP or TLS/SSL . It supports platform specific sources such as the Windows Eventlog, Linux kernel logs, Android logs, local syslog etc. Writing and reading logs to/from databases is also supported. </description>
+    <summary>nxlog - A multi-platform universal log collector and forwarder</summary>
+    <releaseNotes />
+    <copyright>nxsec.com</copyright>
+    <tags>nxlog syslog</tags>
+  </metadata>
+</package>

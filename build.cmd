@@ -1,0 +1,1 @@
+call cpack nxlog.nuspec
