@@ -15,5 +15,6 @@
     <releaseNotes />
     <copyright>nxsec.com</copyright>
     <tags>nxlog syslog admin</tags>
+    <packageSourceUrl>https://github.com/jamescrowley/Chocolatey-NxLog</packageSourceUrl>
   </metadata>
 </package>
