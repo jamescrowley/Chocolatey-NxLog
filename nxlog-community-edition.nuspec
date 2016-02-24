@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>nxlog-community-edition</id>
+    <version>2.9.1504</version>
+    <title>NXLog Community Edition</title>
+    <authors>james.crowley,petemounce,kurtglastetter</authors>
+    <owners>james.crowley,petemounce,kurtglastetter</owners>
+    <licenseUrl>http://nxlog.co/nxlog-public-license</licenseUrl>
+    <projectUrl>http://nxlog.co/products/nxlog-community-edition</projectUrl>
+    <iconUrl>http://c.fsdn.com/allura/p/nxlog-ce/icon</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>nxlog is a modular, multi-threaded, high-performance log management solution with multi-platform support. In concept it is similar to syslog-ng or rsyslog but is not limited to unix/syslog only. It can collect logs from files in various formats, receive logs from the network remotely over UDP, TCP or TLS/SSL . It supports platform specific sources such as the Windows Eventlog, Linux kernel logs, Android logs, local syslog etc. Writing and reading logs to/from databases is also supported. </description>
+    <summary>nxlog - A multi-platform universal log collector and forwarder</summary>
+    <releaseNotes>### 2015-12-08 2.9.1504
+
+* Added a workaround for an APR bug where the memory pool allocated by the APR pollset could grow too large under heavy load under linux/epoll.
+* om_http will now attempt to reconnect on all errors.
+* Add locking to the dbi modules as a workaround for the mysql_init race condition issue.
+* The dbi modules can now use the new reeantrant API if libdbi provides it.
+* Fixed a memory leak caused by convert_fields("AUTO").
+* The JSON parser can automatically detect datetime values - no need to call parsedate().
+* Field limit in CSV parser was raised to 200.
+* xm_gelf handles ShortMessage as is without doing any truncation if it exists.
+* Fixed a leak in xm_fileop's file_remove() and another in the regexp replacement operator when using /g.
+* parsedate() can now also handle integer timestamps with an optional fractional part.
+* Enhanced the replace() function to handle undefined values better.
+* Add locking to the dbi modules as a workaround for the mysql_init race condition issue.
+* The dbi modules can now use the new reeantrant API if libdbi provides it.
+* Fixed a memory leak caused by convert_fields("AUTO").
+* There was a memory leak in xm_kvp module's to_kvp().
+* The linebased reader did not trim trailing CR when CRLF was on the buffer boundary.
+* The to_syslog_snare() formatter creates the date string with double digits instead of padding with space.
+* Flow-control is explicitly disabled with reroute() and add_to_route().
+* Fixed an issue in im_file getting into a loop with CloseWhenIdle enabled.
+* IETF Syslog parser properly skips UTF BOM header.
+* The set_request_path() procedure in om_http was leaking memory.
+* Deleted files could cause an excessive logging of "input file was deleted" in im_file.
+* A &lt;QueryXML&gt; block has been added to im_msvistalog that can be used to specify the XML query without using '\' to join multiple lines.
+* &lt;Exec&gt; can be used as a block to avoid line continuation breaks '\'.
+* The IN operator has been implemented.
+* Fixed an issue related to the csv parser creating undefined values that could lead to a crash in some cases.
+* The string() function was leaking memory.
+* Some large eventlog entries caused a crash or hang with im_msvistalog.
+* Updated openssl libraries on windows to 1.0.2a to support TLSv1.2.
+* The om_tcp and om_ssl modules now provide a reconnect() procedure.</releaseNotes>
+    <copyright>Copyright 2016 nxlog.co. All rights reserved.</copyright>
+    <tags>nxlog syslog admin</tags>
+    <packageSourceUrl>https://github.com/jamescrowley/Chocolatey-NxLog</packageSourceUrl>
+    <docsUrl>http://nxlog.co/docs</docsUrl>
+    <mailingListUrl>https://lists.sourceforge.net/lists/listinfo/nxlog-ce-users</mailingListUrl>
+    <bugTrackerUrl>http://nxlog.co/support-tickets</bugTrackerUrl>
+  </metadata>
+</package>
