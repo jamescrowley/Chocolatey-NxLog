@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>nxlog</id>
+    <id>nxlog-community-edition</id>
     <version>2.9.1504</version>
-    <title>nxlog</title>
+    <title>NXLog Community Edition</title>
     <authors>FundApps</authors>
     <owners>james.crowley</owners>
     <licenseUrl>http://sourceforge.net/directory/license:lgpl/</licenseUrl>
