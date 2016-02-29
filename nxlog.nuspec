@@ -51,4 +51,7 @@
     <mailingListUrl>https://lists.sourceforge.net/lists/listinfo/nxlog-ce-users</mailingListUrl>
     <bugTrackerUrl>http://nxlog.co/support-tickets</bugTrackerUrl>
   </metadata>
+    <files>
+      <file src="tools\**\*" target="tools"/>
+    </files>
 </package>
