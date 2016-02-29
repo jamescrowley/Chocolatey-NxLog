@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>nxlog-community-edition</id>
+    <id>nxlog</id>
     <version>2.9.1504</version>
     <title>NXLog Community Edition</title>
     <authors>james.crowley,petemounce,kurtglastetter</authors>

@@ -1,1 +1,1 @@
-call cpack nxlog-community-edition.nuspec
+call cpack nxlog.nuspec
