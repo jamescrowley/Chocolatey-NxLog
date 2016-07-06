@@ -1,6 +1,7 @@
 ﻿$packageName = 'nxlog-ce'
 $installerType = 'msi'
-$url = 'http://nxlog.co/system/files/products/files/1/nxlog-ce-2.9.1504.msi'
-$silentArgs = '/quiet'
+$toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+$fileLocation = Join-Path $toolsDir 'nxlog-ce-2.9.1716.msi'
+$silentArgs = '/qn'
 
-Install-ChocolateyPackage $packageName $installerType $silentArgs $url
+Install-ChocolateyInstallPackage $packageName $installerType $silentArgs $fileLocation
