@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>nxlog</id>
-    <version>2.10.2102</version>
+    <version>2.10.2150</version>
     <title>NXLog Community Edition</title>
     <authors>james.crowley,petemounce,kurtglastetter,mykola.shestopal</authors>
     <owners>james.crowley,petemounce,kurtglastetter,mykola.shestopal</owners>
