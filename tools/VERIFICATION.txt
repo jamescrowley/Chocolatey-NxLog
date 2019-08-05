@@ -1,0 +1,5 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+MD5 checksum for embedded binary should be the same as for binary on nxlog site (https://nxlog.co/system/files/products/files/348/nxlog-ce-2.10.2150.msi): ab690fae35c361f596a6a14cd7157e2e
